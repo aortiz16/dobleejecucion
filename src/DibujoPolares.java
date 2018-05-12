@@ -1,17 +1,14 @@
-
-import javax.swing.JFrame;
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
-import java.lang.reflect.Method;
 
-
-
-
-
-
-
-
+/**
+ * @Author Tony
+ * @Version 2.1
+ * @Date 12-05-18 Hour: 19:00h
+ * @Complegidad baja
+ */
 
 public class DibujoPolares {
     private static Color devuelveRadianes(double radio, double angulo) {
@@ -20,42 +17,20 @@ public class DibujoPolares {
         //El angulo empieza en la parte superior de la vertical y va en sentido antihorario
 
 
-        if (angulo <= 0.25 || angulo >= 0.75) {
+        if (angulo <= 0.25 || angulo >= 0.2) {  // ***  original : angulo >= 0.75   ****   //
             if (radio < 0.1) {
-                return new Color(147, 147, 147);
+                return new Color(17, 6, 10);
 
             }
             if (radio > 0.1 && radio < 0.2) {
-                return new Color(136, 24, 246);
+                return new Color(24, 6, 7);
 
             }
-            if (radio > 0.2 && radio < 0.3) {
-                return new Color(21, 22, 255);
-
-            }
-            if (radio > 0.3 && radio < 0.4) {
-                return new Color(118, 238, 255);
-
-            }
-            if (radio > 0.4 && radio < 0.5) {
-                return new Color(36, 255, 102);
-
-            }
-            if (radio > 0.5 && radio < 0.6) {
-                return new Color(253, 255, 57);
-
-            }
-            if (radio > 0.6 && radio < 0.7) {
-                return new Color(255, 135, 30);
-
-            }
-            if (radio > 0.7 && radio < 0.8) {
-                return new Color(255, 21, 34);
-
-            }
-
+   /*
+        if (radio > 0.7 && radio < 0.8) {           return new Color(255, 21, 34);          }
+    */
         }
-        return new Color(147, 147, 147);
+        return new Color(198, 8, 34);
     }
 
 
