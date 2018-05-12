@@ -1,16 +1,10 @@
+
+
+import javax.swing.JFrame;
 import java.awt.*;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
-
-ºimport javax.swing.*;
-
-/**
- * @Autor Tony
- * @Version 2.2
- * @Date 12 /05 / 18 18:30h
- * @dificultad Media
- */
-
+import java.lang.reflect.Method;
 
 public class DibujoCartesianas {
 
@@ -18,7 +12,7 @@ public class DibujoCartesianas {
     //El origen (0,0) está en la esquina inferior izquierda
 
     public static Color crear3franjas(double x, double y) {
-        if (x > 0.33) {
+        if (x < 0.33) {
             return new Color(255, 4, 28);
         }
         if (x < 0.66 && x > 0.33) {
@@ -51,11 +45,9 @@ public class DibujoCartesianas {
 
 
     private static Color devuelveColor(double x, double y) {
-        /*   if (x > 0.43) {             return new Color(5, 11, 198);         }
-         */
-        if (x > 0.45 && y < 0.5) return new Color(198, 16, 85);  // sup dch cuadrado
-        if (x > 0.45 && y > 0.49) return new Color(83, 136, 198); // inferior dch
-
+        if (x < 0.23) {
+            return new Color(5, 11, 198);
+        }
 
         if (y < 0.22 && y > 0.11) {
             return new Color(198, 11, 30);
@@ -72,8 +64,7 @@ public class DibujoCartesianas {
         return new Color(247, 244, 30);
     }
 
-    public static int CENTROANC = 200;
-    public static int CENTROALTO = 200;
+
     //NO MODIFICAR A PARTIR DE AQUÍ
 
     public static int ANCHO = 400;
