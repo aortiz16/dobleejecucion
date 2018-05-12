@@ -3,14 +3,14 @@ import java.awt.*;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
 
-/*
-
-
-
-
-
-
+/**
+ * @Autor Tony
+ * @Version 2.2
+ * @Date 12 /05 / 18 18:30h
+ * @dificultad Media
  */
+
+
 public class DibujoCartesianas {
 
     //Método a modificar. x e y están entre 0 y 1.
