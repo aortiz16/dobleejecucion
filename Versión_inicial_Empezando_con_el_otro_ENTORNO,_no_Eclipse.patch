@@ -1,0 +1,49 @@
+Index: src/DibujoCartesianas.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/DibujoCartesianas.java	(revision 264bd549cd8479ab4b4668b60eece7f4e766057d)
++++ src/DibujoCartesianas.java	(date 1526137256537)
+@@ -6,6 +6,18 @@
+ import java.awt.event.ComponentListener;
+ import java.lang.reflect.Method;
+ 
++
++
++
++/**
++ * @author Tony
++ * @Version 2.1
++ * @Date 12 / 05 / 18  17:00h
++ *
++ */
++
++
++
+ public class DibujoCartesianas {
+ 
+     //Método a modificar. x e y están entre 0 y 1.
+Index: src/DibujoPolares.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/DibujoPolares.java	(revision 264bd549cd8479ab4b4668b60eece7f4e766057d)
++++ src/DibujoPolares.java	(date 1526137256548)
+@@ -5,6 +5,15 @@
+ import java.awt.event.ComponentListener;
+ import java.lang.reflect.Method;
+ 
++
++/**
++ * @author Tony
++ * @Version 2.1
++ * @Date 12 / 05 / 18  17:00h
++ *
++ */
++
++
+ public class DibujoPolares {
+     private static Color devuelveRadianes(double radio, double angulo) {
+         //Método a modificar. radio y angulo están entre 0 y 1.

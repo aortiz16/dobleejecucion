@@ -6,6 +6,13 @@ import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
 import java.lang.reflect.Method;
 
+
+
+
+
+
+
+
 public class DibujoCartesianas {
 
     //Método a modificar. x e y están entre 0 y 1.
