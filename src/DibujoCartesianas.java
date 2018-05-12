@@ -1,12 +1,13 @@
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
 
+ºimport javax.swing.*;
+
 /**
  * @Autor Tony
  * @Version 2.2
- * @Date 12 /05 / 18 18:30h 
+ * @Date 12 /05 / 18 18:30h
  * @dificultad Media
  */
 
